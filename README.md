@@ -5,6 +5,7 @@ A simple tool to arrange the downloaded videos from any YouTube playlist into se
 - If you want to test/check the code, I have provided a dummy folder **DownloadedVideos** which contain empty mp4 files having same name as of a youtube playlist whose url is already added in code.
 
 Everything is working fine. But the problem is in find() function in renamer.py.<br/>
+
 ***Problem :-*** 
   - How to check if the downloaded file is present in fetched title list(a list containing all the video's title of the playlist in original sequence)? When you download video from Videoder or any other app or website it insert various prefix or suffix or even modify some characters like changing "|" to "_" etc.
   So, it becomes tedious to search the file in fetched title list to get the sequential index.
@@ -37,5 +38,15 @@ python3 -m pip install selenium
 ```
 python3 renamer.py
 ```
+
+## Expected Output :- 
+ ![YoutubePlaylist](Output/Youtube_Playlist.png)
+      - Playlist from where videos are downloaded.
+
+ ![PreviouslyDownloadedFolder](Output/Previously_Downloaded_Folder_Output.png)
+      - After downloading videos are stored without any order or sequence.
+      
+ ![NewDownloadedFolder](Output/New_Downloaded_Folder_Output.png)
+      - After running **renamer.py**, all files are renamed sequentially.
 
 ## Dev :- Prakash Gupta
