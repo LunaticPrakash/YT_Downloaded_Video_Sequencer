@@ -2,10 +2,11 @@
 A simple tool to arrange the downloaded videos from any YouTube playlist into sequence. It works by adding the original sequence number of video to its prefix.
 
 # Currently in Progress. Not working. If anyone wants to help, they are most welcome!
+- If you want to test/check the code, I have provided a dummy folder **DownloadedVideos** which contain empty mp4 files having same name as of a youtube playlist whose url is already added in code.
 
 Everything is working fine. But the problem is in find() function in renamer.py.<br/>
 ***Problem :-*** 
-  - How to check if the downloaded file is present in fetched title list(a list containing all the video's title of the playlist in original sequence)? Because when you download video from Videoder or any other app or website it insert various prefix or suffix or even modify some characters like changing "|" to "_" etc.
+  - How to check if the downloaded file is present in fetched title list(a list containing all the video's title of the playlist in original sequence)? When you download video from Videoder or any other app or website it insert various prefix or suffix or even modify some characters like changing "|" to "_" etc.
   So, it becomes tedious to search the file in fetched title list to get the sequential index.
   
 ***Proposed Solution :-***
@@ -26,7 +27,7 @@ python3 -m pip install selenium
 ```
 3. I have already provided Chromedriver (version: 97.0.4692.71) .exe file But if you want to install anyways, do this from their official site :-
   <a href="https://chromedriver.chromium.org/downloads" target="_blank">Download Chromedriver</a><br/>
-  Place the .exe file for chromedriver in the same folder where renamer.py file is located.
+  Place the .exe file of chromedriver in the same folder where renamer.py file is located.
 
 ## Getting Started :-
 
