@@ -40,13 +40,18 @@ python3 renamer.py
 ```
 
 ## Expected Output :- 
- ![YoutubePlaylist](Output/Youtube_Playlist.png)
-      - Playlist from where videos are downloaded.
 
- ![PreviouslyDownloadedFolder](Output/Previously_Downloaded_Folder_Output.png)
-      - After downloading videos are stored without any order or sequence.
-      
- ![NewDownloadedFolder](Output/New_Downloaded_Folder_Output.png)
-      - After running **renamer.py**, all files are renamed sequentially.
+  - Playlist from where videos are downloaded.
+    <img src="Output/Youtube_Playlist.png" alt="Youtube_Playlist" width="40%" height="40%" >  
+
+
+  - After downloading videos are stored without any order or sequence.
+    <img src="Output/Previously_Downloaded_Folder_Output.png" alt="Previously_Downloaded_Folder_Output" width="40%" height="40%" >  
+ 
+ 
+  - After running **renamer.py**, all files are renamed sequentially.
+    <img src="Output/New_Downloaded_Folder_Output.png" alt="New_Downloaded_Folder_Output" width="40%" height="40%" >  
+
+  
 
 ## Dev :- Prakash Gupta
