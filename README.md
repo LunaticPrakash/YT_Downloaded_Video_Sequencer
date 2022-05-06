@@ -13,6 +13,10 @@ Everything is working fine. But the problem is in find() function in renamer.py.
 ***Proposed Solution :-***
   - I am thinking of partially checking the similarity by using startswith() or endswith() function instead of checking entire title string. It will solve the problem of extra suffix or prefix that were not in original title but added by app or website through which you have downloaded the video.
 
+**UPDATE (06 May 2022) :- 
+***Applied Solution :-***
+  - I have used **Levenshtein** library to find similarity between title strings. It's not 100% perfect but working fine.
+
 ## Requirements :-
 
 - Python3 
@@ -26,7 +30,7 @@ Everything is working fine. But the problem is in find() function in renamer.py.
 ```
 python3 -m pip install selenium
 ```
-3. I have already provided Chromedriver (version: 97.0.4692.71) .exe file But if you want to install anyways, do this from their official site :-
+3. I have already provided Chromedriver (version: 100.0.x) .exe file But if you want to install anyways, do this from their official site :-
   <a href="https://chromedriver.chromium.org/downloads" target="_blank">Download Chromedriver</a><br/>
   Place the .exe file of chromedriver in the same folder where renamer.py file is located.
 
