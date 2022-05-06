@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 import os
-
+import Levenshtein as lev
 
 def scroll_till_end(driver, pause_time=1):
     # Get scroll height
@@ -48,11 +48,15 @@ def fetch_titles(driver, url, printList=True):
 
     return titles_list
 
-def find(list, key):
-    try:
-        return list.index(key)
-    except ValueError:
-        return -1
+def find(title_list, key):
+    maxSimilarity = -1
+    maxSimilarityIdx = -1
+    for idx, title in enumerate(titles_list):
+        ratio = lev.ratio(title.strip().lower(), key.strip().lower())
+        if ratio > maxSimilarity:
+            maxSimilarity = ratio
+            maxSimilarityIdx = idx
+    return maxSimilarityIdx
 
 def renameFiles(folder, title_list):
     for filename in os.listdir(folder):
