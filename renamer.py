@@ -28,7 +28,7 @@ def scroll_till_end(driver, pause_time=1):
     print("\n*********Reached end of the page*************\n")
 
 
-def fetch_titles(driver, url, printList=True):
+def fetch_titles(driver, url, printList=False):
     print("\n*********Loading Page*********\n")
     driver.get(url)
     print("\n*********Page Loaded Successfully*********\n")
@@ -70,6 +70,7 @@ def renameFiles(folder, title_list):
                 src = f"{folder}/{filename}"
                 dst = f"{folder}/{dst}"
                 os.rename(src, dst)
+    print("\n\n*********Renaming Complete*********\n")
 
 
 if __name__ == "__main__":
