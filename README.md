@@ -1,7 +1,7 @@
 # YT_Downloaded_Video_Sequencer
 A simple tool to arrange the downloaded videos from any YouTube playlist into sequence. It works by adding the original sequence number of video to its prefix.
 
-**UPDATE (06 May 2022) :- 
+**UPDATE (06 May 2022) :-** 
 ***Applied Solution :-***
   - I have used **Levenshtein** library to find similarity between title strings. It's not 100% perfect but working fine.
  
