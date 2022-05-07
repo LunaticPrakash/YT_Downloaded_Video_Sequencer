@@ -2,10 +2,10 @@
 A simple tool to arrange the downloaded videos from any YouTube playlist into sequence. It works by adding the original sequence number of video to its prefix.
 
 ## UPDATE (06 May 2022) :- ##
-</br>***Applied Solution :-***
+***Applied Solution :-***
   - I have used **Levenshtein** library to find similarity between title strings. It's not 100% perfect but working fine.
  
-## Currently in Progress. Partially working. If anyone wants to help, they are most welcome!
+## (1 Feb 2022) Currently in Progress. Partially working. If anyone wants to help, they are most welcome!
 - If you want to test/check the code, I have provided a dummy folder **DownloadedVideos** which contain empty mp4 files having same name as of a youtube playlist whose url is already added in code.
 
 Everything is working fine. But the problem is in find() function in renamer.py.<br/>
