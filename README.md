@@ -51,15 +51,15 @@ python3 renamer.py
 ## Expected Output :- 
 
   - Playlist from where videos are downloaded.<br>
-    <img src="Output/Youtube_Playlist.png" alt="Youtube_Playlist" width="70%" height="70%" ><br>  
+    <img src="https://user-images.githubusercontent.com/56812557/212475378-927300e8-fb51-4af1-b23e-eb6758f498c0.png" alt="Youtube_Playlist" width="70%" height="70%" ><br>  
 
 
   - After downloading videos are stored without any order or sequence.<br>
-    <img src="Output/Previously_Downloaded_Folder_Output.png" alt="Previously_Downloaded_Folder_Output" width="70%" height="70%" ><br>  
+    <img src="https://user-images.githubusercontent.com/56812557/212475377-316a275d-1088-4521-a66c-43e6f18527cb.png" alt="Previously_Downloaded_Folder_Output" width="70%" height="70%" ><br>  
  
  
   - After running **renamer.py**, all files are renamed sequentially.<br>
-    <img src="Output/New_Downloaded_Folder_Output.png" alt="New_Downloaded_Folder_Output" width="70%" height="70%" >  
+    <img src="https://user-images.githubusercontent.com/56812557/212475376-c2b0f254-3742-4e53-a925-b72e233e15b7.png" alt="New_Downloaded_Folder_Output" width="70%" height="70%" >  
 
   
 
