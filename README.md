@@ -1,5 +1,8 @@
 # YT_Downloaded_Video_Sequencer
-A simple tool to arrange the downloaded videos from any YouTube playlist into sequence. It works by adding the original sequence number of video to its prefix.
+A simple tool to arrange the downloaded videos from any YouTube playlist into sequence. It works by adding the original sequence number of video as prefix in the downloaded videos.
+
+## Reason for building :- ##
+Back in the college days, I used to download the entire YouTube playlist tutorials to our local laptop/mobile, whenever we got free internet. However, once downloaded, it was hard to identify the sequence of those videos unless their title explicitly contains some kind of ordering. So, wrote this python script to fetch the correct order from youtube and then prefix the downloaded videos with sequence numbers like 1,2,3.
 
 ## UPDATE (06 May 2022) :- ##
 ***Applied Solution :-***
